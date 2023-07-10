@@ -1,2 +1,2 @@
 # odin-landing-page
-Odin-css Ladning page
+Odin-css Landing page
