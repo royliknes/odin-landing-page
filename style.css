@@ -2,6 +2,10 @@
     margin:0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     background-color: #1F2937;
     padding: 1em 13em;
@@ -129,4 +133,29 @@ h2 {
     height: 160px;
     width: 160px;
     
+}
+
+
+
+
+
+
+.quote {
+    background-color: #E5E7EB;
+    padding:150px;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-sign {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
 }
