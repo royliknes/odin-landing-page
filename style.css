@@ -1,6 +1,11 @@
+* {
+    margin:0;
+}
+
 header {
     background-color: #1F2937;
     padding: 1em 13em;
+    padding-bottom: 120px;
 }
 
 .header-logo {
@@ -17,6 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .section-1 ul {
@@ -28,4 +34,49 @@ header {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+
+
+
+
+.section-1-hero {
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+    margin-top: 0px;
+}
+
+p {
+    color:#E5E7EB;
+    font-size: 18px;
+    margin: 0;
+
+}
+
+button {
+    width: 80px;
+    padding: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+
+img {
+    height: 200px;
+    flex:1;
 }
