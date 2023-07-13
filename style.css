@@ -88,7 +88,7 @@ button {
 
 img {
     height: 200px;
-    flex:1;
+    flex: 1;
 }
 
 
@@ -204,3 +204,16 @@ h3 {
     width: 100px;
 }
 
+/* Footer */
+footer {
+    background-color: #1F2937;
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    background-color:#3e4c5f;
+}
