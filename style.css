@@ -4,7 +4,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    
 }
+
+/* Header */ 
 
 header {
     background-color: #1F2937;
@@ -41,7 +44,7 @@ a {
 }
 
 
-
+/* First section */
 
 
 .section-1-hero {
@@ -77,6 +80,9 @@ button {
     color: white;
     font-weight: 700;
     margin-top: 8px;
+    border-radius: 10px;
+    border: none;
+    
 }
 
 
@@ -86,7 +92,7 @@ img {
 }
 
 
-
+/* Second section */
 
 
 main {
@@ -132,13 +138,14 @@ h2 {
     border: 4px solid#3882F6;
     height: 160px;
     width: 160px;
+    border-radius: 10px;
     
 }
 
 
 
 
-
+/* 3rd/quote section */
 
 .quote {
     background-color: #E5E7EB;
@@ -148,6 +155,8 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .quote-sign {
@@ -159,3 +168,39 @@ h2 {
     font-weight: bolder;
     margin-top: 20px;
 }
+
+
+/* 4th/sign-up section */
+
+.section-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em 13em;
+    background-color: #3882F6;
+    margin: 120px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+h3 {
+    font-size: 27px;
+    color: white;
+}
+
+.button-border {
+    border:#E5E7EB solid 2px;
+    font-size: larger;
+    width: 100px;
+}
+
